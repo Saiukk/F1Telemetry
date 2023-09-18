@@ -1,3 +1,27 @@
 # F1Telemetry
+---
 
-## OK
+This Program simulates the videogame F1 telemetry.
+
+The system receives data for each time instance and returns data from the preselected pilot, if it exists.
+
+## INPUT DATA
+- time
+- id_pilot
+- velocity
+- rpm
+- temperature
+
+## OUTPUT
+
+the output is written in a file with:
+- time
+- rpm level
+- temperature level
+- velocity level
+- max rpm
+- max temp
+- max velocity
+- average velocity
+
+
